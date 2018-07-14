@@ -1,0 +1,157 @@
+
+::selection{
+    background: #1abb9c;
+    color: #555555;
+}
+#portfolio {
+    background-image: url("/image/back_portfolio.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.portfolio_item {
+    display: inline-block;
+    padding: 0;
+}
+
+.item_container {
+    margin: 10px;
+    position: relative;
+}
+
+.item_container img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+.item_meta{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 15%;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.item_meta:hover{
+    opacity: 1;
+}
+
+.date_item_portfolio {
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 24px;
+    background: #1abb9c;
+}
+
+.item_meta h3 {
+    color: #6fa96a;
+    font-weight: bold;
+}
+
+.item_meta p {
+    color: #fff;
+}
+
+.detail_portfolio {
+    background-color: transparent;
+    border: #1abb9c 1px solid;
+    padding: 2px 10px;
+    display: inline-block;
+    color: #1abb9c;
+    transition:  0.5s;
+}
+
+.detail_portfolio:hover {
+    text-decoration: none;
+    color: #1abb9c;
+    opacity: 0.8;
+}
+
+
+/*FULL PROJECT*/
+/*---------------------------------------------------------------------------------------------------------*/
+
+.full_project {
+    -webkit-box-shadow: 2px 4px 16px 4px rgba(199,197,199,1);
+    -moz-box-shadow: 2px 4px 16px 4px rgba(199,197,199,1);
+    box-shadow: 2px 4px 16px 4px rgba(199,197,199,1);
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.full_project h3 {
+    color: #072704;
+    font-size: 24px;
+
+    font-weight: 600;
+
+}
+
+.full_project p {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.full_project p a{
+    color: #1abb9c;
+}
+
+.wrapper {
+    display: table;
+    margin: auto;
+}
+
+
+#carousel_portfolio {
+    /*max-height: 600px;*/
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 2px 3px 3px 3px #828282;
+
+
+}
+
+
+
+#carousel_portfolio .item img{
+    image-rendering: optimize-contrast;
+     max-height: 580px;
+    /*width: auto;*/
+}
+
+.desc h3 {
+    margin-top: 20px;
+}
+
+#carousel_portfolio span i{
+    position: relative;
+    color: #FFFFFF;
+    top: 45%;
+}
+
+@media(max-width: 1200px) {
+    #carousel_portfolio .item img{
+        max-height: 500px;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 992px) {
+    .item_container img {
+        width: 45%;
+        height: auto;
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,404 @@
+#main_type_sites {
+    padding-bottom: 50px;
+}
+
+#main_type_sites h2{
+    font-size: 20px;
+    color: #787676;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+#main_type_sites .card {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(000,000,000,0.1);
+    border-top: 15px solid #1abb9c;
+    padding: 10px;
+}
+
+#main_type_sites .card h3 {
+    text-align: center;
+    color: #050505;
+    font-size: 22px;
+    letter-spacing: 1px;
+    height: 50px;
+    font-weight: 600;
+
+}
+
+#main_type_sites .card h4 {
+    font-size: 15px;
+    text-align: center;
+    color: #050505;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    height: 50px;
+}
+
+#main_type_sites .card img {
+    display: block;
+    margin: auto;
+}
+
+#main_type_sites .card h5 {
+    text-align: center;
+    color: #494848;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#main_type_sites .card a {
+    text-align: center;
+    font-size: 16px;
+    color: #1abb9c;
+    text-decoration: none;
+    border: 1px solid #1abb9c;
+    border-radius: 5px;
+    padding: 8px 0px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding-right: 20px;
+    /*background: url(image/sky-1-arrow.png) no-repeat;*/
+    background-position: 90% 50%;
+    transition: 0.3s;
+}
+
+#main_type_sites .card a:hover {
+    color: #FFFFFF;
+    background-color: #1abb9c;
+}
+
+
+#main_type_sites button {
+    display: block;
+    margin: 50px auto 0px auto;
+    border: none;
+    background: transparent;
+    padding: 0px;
+    outline: none;
+    color: #1abb9c;
+    font-size: 24px;
+    border-bottom: 1px dashed #1abb9c;
+}
+
+#main_type_sites button:hover{
+    border-bottom: 1px solid #1abb9c;
+}
+
+/*#main_type_sites .hid {*/
+    /*display: none;*/
+/*}*/
+
+ /*#main_type_sites .showAll {*/
+     /*display: block;*/
+ /*}*/
+
+#what_is {
+    padding-bottom: 50px;
+}
+
+#what_is  h1 {
+    border-radius: 10px;
+    padding: 5px 0px;
+    background-color: #1abb9c;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+#what_is  h2 {
+    text-align: center;
+}
+
+
+
+#lp-site button {
+    display: table;
+    margin: auto;
+    margin-top: 40px;
+    width: 220px;
+    text-decoration: none;
+    background: #1abb9c;
+    background-position: 90% 50%;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 15px 0px ;
+    border-radius: 5px;
+    transition: 0.3s;
+    outline: none;
+}
+
+#lp-site button:hover {
+    margin-top: 38px;
+    box-shadow: 1px 1px 10px 1px #000;
+}
+
+#ForWhat {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #494848;
+
+}
+
+#ForWhat h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#ForWhat div {
+ text-align: center;
+}
+
+#ForWhat div p {
+    font-weight: 600;
+    margin-top: 10px;
+    color: #f1f1f1;
+}
+
+#ForWhat .cont_lp {
+    margin-top: 30px;
+}
+
+#ForWhat .cont_lp h2 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#ForWhat .cont_lp h2 span {
+    color: #1abb9c;
+    font-weight: 600;
+}
+
+#pricesForlp h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #050505;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+ #pricesForlp .typeslp {
+     padding: 0px 50px;
+ }
+
+ #pricesForlp .typeslp .col-sm-4{
+     padding: 0px 30px;
+ }
+
+#pricesForlp .typeslp .card{
+    transition: 0.3s;
+}
+
+#pricesForlp .typeslp .card:hover{
+    box-shadow: 1px 1px 10px 1px #1abb9c;
+}
+
+#pricesForlp .typeslp .card h2{
+    text-align: center;
+    color: #050505;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    background: #f9f9f9;
+    padding: 30px 0px;
+}
+#pricesForlp .typeslp .card h2 span {
+    font-size: 16px;
+    color: #898888;
+}
+
+#pricesForlp .typeslp .card img {
+    display: block;
+    margin: 20px auto;
+}
+
+#pricesForlp .typeslp .card .bg {
+    padding: 20px 0px;
+    background: #f9f9f9;
+}
+
+#pricesForlp .typeslp .card .bg h3 {
+    text-align: center;
+    color: #050505;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    background: #f9f9f9;
+    margin-top: 0px;
+}
+
+#pricesForlp .typeslp .card .bg h4 {
+    text-align: center;
+    color: #050505;
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    background: #f9f9f9;
+}
+
+#more_info .modal-dialog {
+    width: 60%;
+}
+
+#more_info h1 {
+    font-size: 25px;
+    color: #050505;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+#more_info h1 span {
+    font-size: 16px;
+    font-weight: 500;
+}
+#more_info .lp-pdd {
+    padding: 10px 80px;
+}
+
+#more_info .lp-pdd h2 {
+    font-size: 25px;
+    color: #050505;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+
+#more_info .lp-pdd h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #050505;
+    letter-spacing: 0.05em;
+}
+
+#more_info .lp-pdd h3 span {
+    font-weight: 600;
+}
+.modal-body {
+    padding-left: 50px;
+}
+#more_info .lp-pdd img {
+    display: block;
+    margin: 20px auto;
+}
+
+#more_info h4 {
+    font-size: 25px;
+    color: #050505;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#more_info h5 {
+    font-size: 18px;
+    color: #050505;
+    letter-spacing: 0.05em;
+    background: url(/image/lp-arrow2.png) no-repeat;
+    background-position: 0% 50%;
+    padding-left: 50px;
+}
+
+/*.hid_lp{*/
+    /*display: none;*/
+/*}*/
+
+.lp-content .lp-pdd{
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.lp-content .lp-pdd h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #050505;
+    letter-spacing: 0.05em;
+}
+
+.lp-content .lp-pdd h3 span {
+    font-weight: 600;
+}
+
+.lp-content .lp-pdd img {
+    display: block;
+    margin: 20px auto;
+
+}
+.lp-content .lp-pdd div + div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lp-content  .bg{
+    background-color: #ffffff;
+    /*margin-top: 20px;*/
+}
+.lp-content  h4{
+    font-size: 25px;
+    color: #050505;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.lp-content  h5{
+    color: #050505;
+    letter-spacing: 0.05em;
+    background: url(/image/lp-arrow2.png) no-repeat;
+    background-position: 0% 50%;
+    padding-left: 50px;
+    padding-right: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+
+
+@media(max-width: 760px) {
+    #ForWhat h1 {
+
+        font-size: 26px;
+    }
+    #ForWhat .container .row div{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width: 500px) {
+    #ForWhat h1 {
+
+        font-size: 20px;
+    }
+
+    #what_is h1 {
+        font-size: 22px;
+    }
+
+    #what_is h2 {
+        font-size: 22px;
+    }
+
+    #pricesForlp h1 {
+        font-size: 20px;
+    }
+
+    #pricesForlp .typeslp {
+        padding: 0px 0px;
+    }
+}

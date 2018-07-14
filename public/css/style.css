@@ -1,0 +1,155 @@
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Microsoft Sans Serif' , Arial, Helvetica, Verdana;
+}
+body {
+    margin-top: 70px !important;
+     background: #f0f0f0;
+}
+#head {
+    background-color: #ffffff;
+    height: 75px;
+    border: none;
+}
+
+#font_head a {
+    color: #c9c9c9;
+    font: bold 22px arial;
+    margin-top: 11px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    transition: 1s;
+}
+
+#font_head a:hover {
+    color: #1abb9c;
+}
+
+#brand img {
+    float: left;
+    margin-top: -7px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+#menu {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    float: right;
+
+
+}
+
+#menu li a {
+    color: #c9c9c9;
+    font: bold 13.5px arial;
+    margin-top: 14px;
+    margin-left: 15px;
+
+}
+
+#menu li a:hover {
+    color: #1abb9c;
+
+}
+
+#menu li a:active {
+    color: #1abb9c;
+}
+
+
+pre {
+    tab-size: 8;
+}
+.btn-logout {
+    background: #1abb9c;
+    color: #FFFFFF;
+    margin-top: 17px;
+    margin-left: 10px;
+    border: 1px solid #1abb9c;
+    transition: 0.5s;
+}
+
+#btn_menu {
+   position: relative;
+    left: 20px;
+    top: 13px;
+    background-color: #1abb9c;
+}
+
+#btn_menu span{
+    background-color: white;
+    height: 2.5px;
+}
+
+@media(max-width: 992px) {
+    .side-collapse-container{
+        width:100%;
+        position:relative;
+        left:0;
+        transition:left .4s;
+    }
+    .side-collapse-container.out{
+        left:200px;
+    }
+    .side-collapse {
+        top:85px;
+        bottom:0;
+        left:0;
+        width:200px;
+        position:fixed;
+        overflow:hidden;
+        transition:width .4s;
+        background-color: #FFFFFF;
+        border: 3px solid #1abb9c;
+        border-bottom: 0;
+        /*padding-right: 50px;*/
+
+    }
+    .side-collapse.in {
+        width:0;
+        border: 0;
+    }
+
+    #brand img{
+        margin-left: 10px;
+
+    }
+}
+
+
+
+#footer {
+    text-align: center;
+    width: 100% !important;
+    height: 150px;
+    background-color: #fff;
+    margin-top: 60px;
+    float: left;
+
+}
+
+#footer p {
+    /*color: #979797 ;*/
+    color: #1abb9c;
+    font: 15px arial;
+    margin-top: 57px;
+}
+
+
+#footer div a i {
+    /*color: #b2b2b2;*/
+    color: #1abb9c;
+    margin: 6px;
+}
+
+#footer div a i:hover {
+    /*color: #1abb9c;*/
+    color: #b2b2b2;
+}
+
+.active a{
+    color: #1abb9c !important;
+}
